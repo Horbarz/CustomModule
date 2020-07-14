@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="2columns-right" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="Neptune_FirstLayout::css/custom.css" />
+        <css src="Neptune_FirstLayout::css/animate.optimized.css" />
+        <css src="Neptune_FirstLayout::css/header/type2.css" />
+        <css src="Neptune_FirstLayout::bootstrap/css/bootstrap.optimized.min.css" />
+    </head>
+    <body>
+        <referenceContainer name="content">
+            <block class="Magento\Framework\View\Element\Template" 
+            name="neptune.first.layout.example" 
+            template="Neptune_FirstLayout::example.phtml" />
+        </referenceContainer>
+    </body>
+</page>
